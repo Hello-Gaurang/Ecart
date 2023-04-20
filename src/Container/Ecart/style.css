@@ -1,0 +1,123 @@
+  .Cart-Div {
+    display: flex;
+    margin-top: 5em;
+    padding: 10px;
+    position: initial;   
+    grid-column-gap: 15px; 
+    flex-direction: row-reverse;
+    }   
+    .cart-Total { 
+    flex: 1.5; 
+    height: min-content;
+     
+    }
+    .cart-Detail { 
+      flex: 3;
+      background-color: rgb(135, 179, 92);
+      border-radius: 10px;
+      opacity: 0.9;
+
+    }
+    .first-Map{
+      display: flex;
+      justify-content: space-between;
+      padding: 2px;
+      background-color: rgb(135, 179, 92);
+      border-bottom: 1px solid rgb(214, 194, 194);
+      
+    }
+    .cart-img{
+      height: 30px;
+      width: 35px;
+    }
+    .Mdiv{
+      display: flex;
+      padding: 10px;
+      justify-content: space-between;
+      border: solid 1px white;
+      
+    }
+    .list-btn{
+      height: 40px;
+      width: 140px;
+      margin-top: 1em !important;     
+    } 
+    .title{
+      width: 143px;
+      
+    }
+    .img{
+      height: 70px;
+      width: 100px;
+    }
+    h5{
+      font-weight: 400;
+      font-size: 1.1em;
+    }
+    h4{
+      font-weight: 400;
+      font-size: 1.1em;
+    }
+    .cart-Heading{
+      background-color:  rgb(135, 179, 92);
+      width: 100%;
+      font-weight: 100;
+      text-align: center;
+      opacity: 0.9;
+      
+    }
+    .lab{
+      font-size: 2.8em;
+    }
+    .abc{
+      font-size: 1em;
+      font-weight: 400;
+      width: 90px;
+      white-space: nowrap; 
+      overflow: hidden;
+      text-overflow: ellipsis; 
+    }
+    @media only screen and (max-width: 600px) {
+      .Cart-Div {
+        flex-direction: column;
+        grid-row-gap: 15px;
+      }
+      .Mdiv{
+        flex-direction: column;
+        
+      }
+      .cart-Heading{
+        width: 100%;
+        margin-top:-6em;
+      }
+      .cart-Detail{
+        width:100%;
+        font-size: 0.8em;    
+      }
+      .img{
+        position: absolute;
+        margin-top: 0;
+        right: 2em;
+        width: 170px;
+        height: 130px;
+      }
+      .list-btn{
+        width: 45%;
+        font-size: 0.9em !important;   
+        margin-top:-1em !important;
+      }
+      .abc{
+        font-size: 0.6em;   
+      }
+      .cart-Map{
+        height: 30px;
+      }
+      .title{
+        width: 100px;
+        white-space: nowrap; 
+      overflow: hidden;
+      text-overflow: ellipsis; 
+      }
+    
+    }
+    

@@ -1,0 +1,17 @@
+.Icart{
+  margin-left: 20em;
+  font-size: 3em; 
+  display: flex;
+  
+}
+i{
+ color: yellow;
+ margin-top: 0.3em;
+}
+.Cart-Num{
+  position: absolute;
+  top:1.3em;
+  font-size: 0.4em !important;
+  color: rgb(27, 3, 3) !important;
+  margin-left: -25px;
+}

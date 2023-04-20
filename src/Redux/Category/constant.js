@@ -1,0 +1,3 @@
+export const CATEGORY_LIST = 'CATEGORY_LIST'
+export const CATEGORY_ERROR = 'CATEGORY_ERROR'
+export const All_CATEGORIES = 'All_CATEGORIES'
